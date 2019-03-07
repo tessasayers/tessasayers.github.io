@@ -18,7 +18,7 @@
 
 
 @font-face {
-    font-family: 'mlb_philadelphia_phillies_1Rg';
+    font-family:'mlb_philadelphia_phillies_1Rg';
     src: url('fonts/mlbphiladelphiaphillies1980-webfont.woff2') format('woff2'),
          url('fonts/mlbphiladelphiaphillies1980-webfont.woff') format('woff');
     font-weight: normal;
@@ -39,6 +39,7 @@ h1 {
   font-family: "Helvetica", "Arial", sans-serif;
   text-align: center;
 }
+
 
 h2 {
   font-size: 1.6em;
@@ -107,15 +108,27 @@ a:hover {
   margin-top: 50px;
 }
 
+.phillyheader h1 {
+  color: #6F263D;
+  font-family:'mlb_philadelphia_phillies_1Rg';
+  margin-top: 50px;
+  font-size: 4em;
+}
+
+.phillyheader h1 a{
+    color: #6F263D;
+}
+
 .dodgers {
   color: black;
   background-color: #006AB8;
 }
 
-.dodgersheader {
+.dodgersheader h1{
   margin-top: 50px;
   color: #EF3E42;
   font-family: 'painter_personal_use_onlyRg';
+  font-size: 4em;
 }
 
 .giants {
@@ -123,10 +136,11 @@ a:hover {
   background-color: #EFD19F;
 }
 
-.giantsheader {
+.giantsheader h1 {
+  font-family:'mlb_piratesregular';
   margin-top: 50px;
   color: #FD5A1E;
-  font-family:'mlb_piratesregular';
+  font-size: 4em;
 }
 
 
