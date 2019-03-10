@@ -2,8 +2,10 @@
 
  $(document).ready(function() {
  $('.image-link').magnificPopup({type:'image'});
-      closeOnBgClick: true,closeOnContentClick:true
-       // other options
+ $('.brycesignedhere.png').magnificPopup({
+type: 'image'
+// other options
+});
    });
 }
 });

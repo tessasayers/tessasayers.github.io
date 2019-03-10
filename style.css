@@ -32,6 +32,7 @@ body {
   font-family: "Helvetica", "Arial", sans-serif;
   margin: 0;
   padding: 0;
+  text-align: center;
 }
 
 h1 {
@@ -89,24 +90,20 @@ a:hover {
   margin-top: 50px;
 }
 
-#usemap {
+.usemap {
+  display: block;
   width:auto;
   background: #EEEEEE;
   height:auto;
-  margin:auto;
+
 }
 
 .phillies {
   color: black;
   background-color: #6BACE4;
+  text-align: left;
 }
 
-
-.phillyheader {
-  color: #6F263D;
-  font-family:'mlb_philadelphia_phillies_1Rg';
-  margin-top: 50px;
-}
 
 .phillyheader h1 {
   color: #6F263D;
@@ -119,9 +116,10 @@ a:hover {
     color: #6F263D;
 }
 
-.dodgers {
+.dodgers  {
   color: black;
   background-color: #006AB8;
+  text-align: left;
 }
 
 .dodgersheader h1{
@@ -129,11 +127,13 @@ a:hover {
   color: #EF3E42;
   font-family: 'painter_personal_use_onlyRg';
   font-size: 4em;
+  text-shadow: 2px 2px 2px red;
 }
 
 .giants {
   color: black;
   background-color: #EFD19F;
+  text-align: left;
 }
 
 .giantsheader h1 {
@@ -178,10 +178,15 @@ p {
 
 
 .body1 {
-  color: #6F263D;
+color: #6F263D;
 background-color: #6BACE4;
 margin: 0;
 padding: 0;
+}
+
+.body1 h1 {
+  font-family:'mlb_philadelphia_phillies_1Rg';
+  font-size: 3em;
 }
 
 .body2 {
@@ -192,7 +197,20 @@ padding: 0;
 
 }
 
+.body2 h1 {
+  font-family: 'painter_personal_use_onlyRg';
+  font-size: 3em;
+  text-shadow: 1px 1px 1px red;
+}
+
 .giants1body {
   color: #FD5A1E;
   background-color: #EFD19F;
+}
+
+.giants1body h1 {
+  font-family:'mlb_piratesregular';
+  margin-top: 50px;
+  font-size: 3em;
+  text-align: center;
 }
