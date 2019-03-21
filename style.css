@@ -118,6 +118,11 @@ a:hover {
     color: #6F263D;
 }
 
+.philliesheader h1 a:hover{
+  text-decoration: none;
+}
+
+
 .dodgers  {
   color: black;
   background-color: #006AB8;
@@ -130,6 +135,14 @@ a:hover {
   font-family: 'painter_personal_use_onlyRg';
   font-size: 4em;
   text-shadow: 2px 2px 2px red;
+}
+
+.dodgersheader h1 a{
+    color: #EF3E42;
+}
+
+.dodgersheader h1 a:hover{
+  text-decoration: none;
 }
 
 .giants {
@@ -145,7 +158,13 @@ a:hover {
   font-size: 4em;
 }
 
+.giantsheader h1 a{
+    color: #FD5A1E;
+}
 
+.giantsheader h1 a:hover{
+  text-decoration: none;
+}
 .page {
   width: 900px;
   margin: 0 auto;
